@@ -132,7 +132,7 @@ The system shall:
 
 The use case diagram below illustrates the interactions between the three actors (Customer, Service Provider, Admin) and the system's core functionality.
 
-![Use Case Diagram](diagrams/use-case-diagram.png)
+![Use Case Diagram](diagrams/use-case-diagram.drawio.png)
 
 **Key insights:**
 - **Customer** interacts with booking-related use cases (register, view slots, book, cancel, reschedule, view bookings).
@@ -146,7 +146,7 @@ The use case diagram below illustrates the interactions between the three actors
 
 The BPMN diagram below maps the end-to-end appointment booking journey, separated into Customer and System swimlanes. It includes an exclusive gateway to handle the race condition where a slot may become unavailable between selection and confirmation.
 
-![BPMN Booking Flow](diagrams/bpmn-user-flow.png)
+![BPMN Booking Flow](diagrams/bpmn-user-flow.drawio.png)
 
 **Key insights:**
 - The **Customer lane** captures user-driven steps (search, select date, choose slot, enter details, confirm).
